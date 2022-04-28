@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#header {
+    margin: auto;
+}
+
+h1 {
+    margin: 50px auto;
+}
+
+/* CALCULATOR DISPLAY */
+#calculator {
+    border: 2px black solid;
+    padding: 10px;
+    /* width: 300px;
+    height: 500px; */
+    width: 40%;
+    height: 70%;
+
+}
+
+#display-area{
+    width: auto;
+    height: 20%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    border: 1px black solid;
+    text-align: right;
+    font-size: 35px;
+    padding: 5px 1px;
+    flex: 1;
+    margin: 20px 0px
+
+}
+
+#buttons-area {
+
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+
+}
+
+.btn {
+    flex: 1;
+    height: auto;
+    padding: 1px;
+    margin: 1px;
+}
+
+.row-five > .zero {
+    width: 50%;
+    flex: 1 1 auto;
+}
+
+.row-five > .one {
+    width: 25%;
+    flex: 1 1 auto;
+}
+
+
