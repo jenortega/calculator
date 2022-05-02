@@ -59,6 +59,12 @@ opButtons.forEach((opButton) => {
             }
             num1 = Number(joinNum(num1));
             num2 = Number(joinNum(num2));
+
+            let numObj = {
+                num1: num1,
+                num2: num2,
+                operator: operator
+            }
             
             displayText.textContent = operate(numObj);
 
