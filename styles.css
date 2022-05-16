@@ -79,6 +79,10 @@ h2 {
     width: 75%;
 } 
 
+.disableButton {
+    pointer-events: none;
+ }
+
 #right-buttons {
     display: flex;
     flex-direction: column;
